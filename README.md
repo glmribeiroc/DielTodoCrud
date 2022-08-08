@@ -4,7 +4,7 @@
 
 2° Após baixar as dependencias execute yarn dev para rodar a aplicação
 
-Funcionalidades:
+# Funcionalidades:
 (x) Cadastro de uma nova tarefa
 (x) Edição de tarefa
 (x) Remoção de tarefa
