@@ -1,0 +1,70 @@
+.main {
+  margin-top: 1rem;
+}
+
+.tarefasContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: black;
+  font-weight: 500;
+
+  .tarefa {
+    background: white;
+    padding: 1rem 1rem;
+    border-radius: 0.25rem;
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        strong {
+          font-size: 1.5rem;
+          font-weight: 700;
+          margin-left: 0.3rem;
+        }
+      }
+
+      button {
+        border: 0;
+        background-color: transparent;
+        margin: 0.4rem;
+      }
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .descricao {
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin: 1rem 0;
+    }
+
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: 400;
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          margin-right: 0.3rem;
+        }
+      }
+    }
+  }
+}
