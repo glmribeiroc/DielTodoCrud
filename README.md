@@ -2,9 +2,10 @@
 
 1° Na raiz do projeto execute yarn para baixar as dependencias
 
-2° Após baixar as dependencias execute yarn start para rodar a aplicação
+2° Rode o back-end em node para pode fazer os crud, link do repositorio: https://github.com/glmribeiroc/DielTodoCrudBack
 
-3° Rode o back-end em node para pode fazer os crud, link do repositorio: https://github.com/glmribeiroc/DielTodoCrudBack
+3° Com a api rodando e as dependencias baixadas execute yarn start para rodar a aplicação
+
 
 # Funcionalidades:
 (x) Cadastro de uma nova tarefa
