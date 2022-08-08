@@ -20,6 +20,8 @@ export function Header({ abrirCriarNovaTarefaModal }: HeaderProps) {
       tarefa.titulo.includes(event.target.value)
     );
     buscarTarefas(filtrarTarefas);
+
+    console.log(tarefas);
   }
 
   function handleOrdenarDia() {
