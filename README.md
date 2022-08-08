@@ -4,6 +4,8 @@
 
 2° Após baixar as dependencias execute yarn dev para rodar a aplicação
 
+3° Rode o back-end em node para pode fazer os crud, link do repositorio: https://github.com/glmribeiroc/DielTodoCrudBack
+
 # Funcionalidades:
 (x) Cadastro de uma nova tarefa
 
